@@ -1,0 +1,145 @@
+input {
+    border: none;
+    font-size: inherit;
+    text-align: inherit;
+    width: inherit;
+    color: inherit;
+}
+
+input[type=text] {
+    width: 80%;
+}
+
+label {
+    padding-left: 10px;
+}
+
+input::placeholder {
+    color: black;
+}
+
+.block-formpage {
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.3);
+}
+
+.main-formpage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+}
+
+.center-formpage {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title-formpage {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    height: 60px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.desc-formpage {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.desc-formpage textarea{
+    font-size: 18px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 25px;
+    max-height: 200px;
+    border: none;
+}
+
+.question-block {
+    padding: 18px;
+    padding-bottom: 25px;
+}
+
+.question-block-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.question-block-options {
+    font-size: 18px;
+}
+
+.question-block-list {
+
+    list-style: none;
+}
+
+.question-block-list li {
+    margin-top: 10px;
+}
+
+.question-block-imgs {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.question-block-imgs img {
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+.question-addNew {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.newAction-text {
+    font-size: 18px;
+}
+
+.question-addNew img {
+    width: 50px;
+    padding: 20px;
+}
+
+.question-submit-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question-submit-author {
+    font-size: 18px;
+    color: rgb(41, 41, 41)
+}
+
+.question-submit-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    background: var(--secondary-color);
+    border-radius: 15px;
+    font-size: 20px;
+    width: 140px;
+    height: 60px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s font-size;
+    text-transform: uppercase;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+}

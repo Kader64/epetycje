@@ -1,0 +1,34 @@
+@media only screen and (max-width: 1250px) {
+    .start_block{
+        flex-direction: column;
+    }
+    .start-left, .start-right{
+        width: auto;
+    }
+    .start-title{
+        padding: 20px 0;
+        font-size: 4vw;
+        text-align: center;
+    }
+    .start-desc{
+        display: none;
+    }
+    .footer-items {
+        font-size: 20px;
+    }
+    .search{
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .title-form-right {
+        display: none;
+    }
+    .title-form {
+        text-align: center;
+    }
+    .title-form-left {
+        width: 100%;
+        clear: left;
+    }
+}
